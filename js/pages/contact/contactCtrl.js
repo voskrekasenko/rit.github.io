@@ -1,0 +1,1 @@
+!function(){"use strict";function t(){}angular.module("app").controller("contactCtrl",t)}();

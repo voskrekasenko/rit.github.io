@@ -1,0 +1,1 @@
+!function(){"use strict";function n(n,t){n.isActive=function(n){return n===t.path(["/capabilities"])}}angular.module("app").controller("navController",["$scope","$location",n])}();
