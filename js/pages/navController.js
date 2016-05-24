@@ -1,1 +1,1 @@
-!function(){"use strict";function n(n,t){n.isActive=function(n){return n===t.path(["/capabilities"])}}angular.module("app").controller("navController",["$scope","$location",n])}();
+!function(){"use strict";function e(){var e=document.querySelector(".hamburger");e.addEventListener("click",function(){e.classList.toggle("is-active")})}angular.module("app").controller("navController",e)}();
