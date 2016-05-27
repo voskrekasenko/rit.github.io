@@ -1,1 +1,1 @@
-!function(){"use strict";function t(){}angular.module("app").controller("contactCtrl",t)}();
+!function(){"use strict";function t(t){t.$parent.footer=!0,t.$parent.logo=!0}angular.module("app").controller("contactCtrl",t),t.$inject=["$scope","$state"]}();

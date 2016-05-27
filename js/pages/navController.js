@@ -1,1 +1,1 @@
-!function(){"use strict";function e(){var e=document.querySelector(".hamburger");e.addEventListener("click",function(){e.classList.toggle("is-active")})}angular.module("app").controller("navController",e)}();
+!function(){"use strict";function e(){var e=document.querySelector(".hamburger");e.addEventListener("click",function(){e.classList.toggle("is-active")})}angular.module("app").controller("navController",e),e.$inject=["$scope","$state","$rootScope"]}();
