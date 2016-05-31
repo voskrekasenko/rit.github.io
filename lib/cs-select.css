@@ -51,7 +51,7 @@ div.cs-select:focus {
 
 .cs-select > span::after {
 	content: '\25BE';
-	right: 1em;
+	right: 0em;
 }
 
 .cs-select .cs-selected span::after {
@@ -62,6 +62,7 @@ div.cs-select:focus {
 .cs-select.cs-active > span::after {
 	-webkit-transform: translateY(-50%) rotate(180deg);
 	transform: translateY(-50%) rotate(180deg);
+	top: 72%;
 }
 
 div.cs-active {
