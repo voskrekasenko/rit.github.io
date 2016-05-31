@@ -1,1 +1,1 @@
-!function(){"use strict";function t(t){t.$parent.footer=!0,t.$parent.logo=!0}angular.module("app").controller("contactCtrl",t),t.$inject=["$scope","$state"]}();
+!function(){"use strict";function e(e){e.$parent.footer=!0,e.$parent.logo=!0,function(){[].slice.call(document.querySelectorAll("select.cs-select")).forEach(function(e){new SelectFx(e)})}()}angular.module("app").controller("contactCtrl",e),e.$inject=["$scope","$state"]}();
