@@ -1,1 +1,54 @@
-<div class="margin-fix row"><div class="padding-fix col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="project-idea"><h2>Do you have a project idea?</h2><h2>Let’s discuss it.</h2></div><form class="input-form" method="POST"><div class="input"><input class="marg-right" type="text" placeholder="Your name" name="username" ng-model="username"> <input class="" type="text" placeholder="Your email address" name="email" ng-model="email"></div><div class="form-select"><select class="marg-right cs-select cs-skin-elastic" name="position" id="position"><option value="" disabled="disabled" selected="selected">Position</option><option value="Founder/Co-founder">Founder/Co-founder</option><option value="C-level Executive">C-level Executive</option><option value="Investor">Investor</option><option value="Other">Other</option></select><select class="cs-select bud cs-skin-elastic" name="budget" id="budget"><option value="" disabled="disabled" selected="selected">Budget</option><option value="Up to $30 000">Up to $30 000</option><option value="Up to $60 000">Up to $60 000</option><option value="Up to $100 000">Up to $100 000</option><option value="More than $100 000">More than $100 000</option><option value="Not defined">Not defined</option></select></div><div class="big-input"><input class="big-input attached" maxlength="280" ng-model="message" type="text" placeholder="Write your message here" name="message"></div></form><div class="send-button"><a class="btn" ng-click="sendEmail(message, username, email)" href="{{href}}">send</a></div></div></div><div class="margin-fix row"><div class="padding-fix contact-bottom bg-contact col-lg-12 col-md-12 col-sm-12 col-xs-12"><h2>Project inquiries</h2><div class="block-liza"><div class="block-liza-image"><img src="css/img/avatar.png" alt=""></div><div class="block-liza-text"><h5>Lisa Burdenyuk, CEO.</h5><h5>lisa.burdenyuk@rit-js.com</h5></div></div></div></div>
+<div class="margin-fix row">
+	<div class="padding-fix col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="project-idea">
+			<h2>Do you have a project idea?</h2>
+			<h2>Let’s discuss it.</h2>
+		</div>
+			<form class="input-form" method="POST">
+				<div class="input">
+					<input class="marg-right" type="text" placeholder="Your name" name="username" ng-model="username">
+					<input class="" type="text" placeholder="Your email address" name="email" ng-model="email">
+				</div>
+					
+				<div class="form-select">
+					<select class="marg-right cs-select cs-skin-elastic" name="position" id="position">
+						<option value="" disabled="disabled" selected="selected">Position</option>
+						<option value="Founder/Co-founder">Founder/Co-founder</option>
+						<option value="C-level Executive">C-level Executive</option>
+						<option value="Investor">Investor</option>
+						<option value="Other">Other</option>
+					</select>
+										
+					<select class="cs-select bud cs-skin-elastic" name="budget" id="budget">
+						<option value="" disabled="disabled" selected="selected">Budget</option>
+						<option value="Up to $30 000">Up to $30 000</option>
+						<option value="Up to $60 000">Up to $60 000</option>
+						<option value="Up to $100 000">Up to $100 000</option>
+						<option value="More than $100 000">More than $100 000</option>
+						<option value="Not defined">Not defined</option>
+					</select>
+				</div>
+				<div class="big-input">
+					<input class="big-input attached" maxlength="280" ng-model="message" type="text" placeholder="Write your message here" name="message">
+				</div>
+			</form>
+			<div class="send-button">
+				<a class="btn" ng-click="sendEmail(message, username, email)" href="{{href}}">send</a>
+			</div>
+	</div>
+</div>
+
+<div class="margin-fix row">
+	<div class="padding-fix contact-bottom bg-contact col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<h2>Project inquiries</h2>
+		<div class="block-liza">
+			<div class="block-liza-image">
+				<img src="css/img/avatar.png" alt="">
+			</div>
+			<div class="block-liza-text">
+				<h5>Lisa Burdenyuk, CEO.</h5>
+				<h5>lisa.burdenyuk@rit-js.com</h5>
+			</div>
+		</div>
+	</div>
+</div>
