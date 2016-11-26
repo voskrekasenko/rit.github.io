@@ -1,1 +1,0 @@
-!function(){"use strict";function t(t,e){t.$parent.flag=e.current.name,t.$parent.footer=!0,t.$parent.logo=!0}angular.module("app").controller("capabilitiesCtrl",t),t.$inject=["$scope","$state"]}();

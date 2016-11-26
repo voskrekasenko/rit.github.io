@@ -1,1 +1,0 @@
-!function(){"use strict";function n(){}angular.module("app").controller("worksCtrl",n)}();

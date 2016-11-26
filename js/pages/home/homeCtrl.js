@@ -1,1 +1,0 @@
-!function(){"use strict";function t(t,e){t.$parent.flag=e.current.name,t.$parent.footer=!1,t.$parent.logo=!1}angular.module("app").controller("homeCtrl",t),t.$inject=["$scope","$state"]}();
