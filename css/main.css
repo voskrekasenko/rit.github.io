@@ -501,8 +501,8 @@ Author:         Mat Przegietka
 	height:5.14rem;
 	padding-top:1.7rem;
 	position: fixed;
-	top:0;
-	left: 0;
+	/*top:0;
+	right: 0;*/
 	width: 100%;
 	z-index:1000;
 }
@@ -1500,17 +1500,18 @@ label {
 		color: #fff;
 	}
 }
-.top_left_block {
+.header_block {
 	margin-top: 8rem;
 	text-align: left;
 }
-.top_right_block {
-	position: absolute;
-	margin-top: 5rem;
-	/*margin-right: -2rem;*/
+.header_block h1 {
+	width: 60%;
 }
 .image_float {
-	
+	width: 48%;
+    position: absolute;
+    right: -3%;
+    top: 8%;
 }
 #more_info {
 	padding: 0;
@@ -1736,6 +1737,9 @@ label {
 	background: url('../images/puzzle-06_2x.png') no-repeat top right;
 	background-size: 17% auto;
 }
+.teener_team {
+	overflow: hidden;
+}
 .teenergizer {
 	font-family:Roboto Condensed;
 	color: #FFCD05;
@@ -1829,7 +1833,15 @@ label {
 	font-size: 26px;
 	margin-bottom: 36px;
 }
-#cta_download img {
+
+#cta_download {
+	position: relative;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	background-color: #FFCD05;
+	z-index: 1000;
+}
+.cta_download_img {
 	position: absolute;
 	width: 9%;
 	top: -12%;
