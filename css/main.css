@@ -1694,6 +1694,10 @@ label {
 	background: url('../images/puzzle-04_2x.png') no-repeat top right;
 	background-size: 11% auto;
 }
+.headler_puzzle_04 h3{
+	width: 38%;
+	margin: 0 auto;
+}
 .bottom_middle_puzzle {
 	background: url('../images/puzzle-05_2x.png') no-repeat bottom center;
 	background-size: 8% auto;
