@@ -239,6 +239,9 @@ Responsiveness Fixes
 	}
 }
 @media (min-width: 320px) and (max-width: 480px) {
+	.hero_fullscreen {
+		padding-bottom: 32px !important;
+	}
 	.header_block {
 	    margin-top: 50px;
 	}
