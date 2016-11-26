@@ -270,10 +270,10 @@ Responsiveness Fixes
 		font-family: Roboto Condensed;
 		font-size: 10px;
 		line-height: 10px;
-		margin: 10px 0 0 2px;
+		margin: 20px 0 0 2px;
 	}
 	.clock_width {
-		margin-top: 10px;
+		margin-top: 20px;
 		max-width: 10px;
 	}
 	.top_right_block .img_responsive {
@@ -283,7 +283,7 @@ Responsiveness Fixes
 		top:0;
 	}
 	.cta_button_area {
-		margin: 10px 0;
+		margin: 20px 0;
 	}
 	.want_download {
 		height: 24px;
@@ -291,10 +291,10 @@ Responsiveness Fixes
 		font-size: 10px;
 		border-radius: 4px;
 		padding: 0 1.2rem;
-		box-shadow: 2px 4px 6px 0px rgba(30, 30, 30, 0.2);
+		box-shadow: 1px 1px 4px 0px rgba(30, 30, 30, 0.2);
 	}
 	.want_download:hover {
-		box-shadow: 2px 4px 6px 1px rgba(30, 30, 30, 0.3);
+		box-shadow: 2px 2px 4px 1px rgba(30, 30, 30, 0.3);
 	}
 	h3 {
 		font-size: 18px;
@@ -324,8 +324,11 @@ Responsiveness Fixes
 	.box_right_triangle {
 		display: block;
 	}
+	.what_is_arts {
+    	width: 80%;
+    }
 	.phone-04 {
-		margin-top: -54px;
+		margin-top: -16px;
 	}
 	.triangle_box {
 		margin: 4px 0;
@@ -380,7 +383,7 @@ Responsiveness Fixes
 	}
 	.back_puzzle_left {
 		margin-top: 20px;
-		background-size: 18% auto;
+		background: none;
 	}
 	.box_tasks p {
 		font-size: 14px;
@@ -390,7 +393,10 @@ Responsiveness Fixes
 		height: 140px;
 	}
 	.box_tasks h2 {
-		font-size: 18px;
+		font-size: 14px;
+	}
+	.line_block_images img {
+		margin: 0 2px;
 	}
 	.about_video_player {
 		padding-top: 2rem;
@@ -398,10 +404,28 @@ Responsiveness Fixes
 	.effect3:before, .effect3:after {
 		top: 4%;
 	}
+	.puzzle_04 {
+		background: none;
+	}
+	.headler_puzzle_04 {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.headler_puzzle_04 h3 {
+		width: 80%;
+		margin: 0 auto;
+	}
 	.middle_puzzle {
 		top: -5%;
 	}
-	#teen .subsection {
+	.puzzle_06 {
+		background: none;
+	}
+	.bottom_middle_puzzle {
+		background: none;
+	}
+	#teenerteam.subsection {
 		padding: 10px 0;
 	}
 	.block_slider_text {
@@ -432,11 +456,15 @@ Responsiveness Fixes
 	.footer_logo img {
 		width: 72%;
 	}
+	.footer_logo {
+		box-shadow: none;
+	}
 	.footer_text {
 		padding: 20px 3px 0 0;
 	}
 	.text_partial {
 		padding: 20px 0 0 5px;
+		box-shadow: none;
 	}
 }
 
