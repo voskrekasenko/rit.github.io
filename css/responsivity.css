@@ -239,29 +239,48 @@ Responsiveness Fixes
 	}
 }
 @media (min-width: 320px) and (max-width: 480px) {
+	.header_block {
+	    margin-top: 60px;
+	}
+	.menu_bar {
+    	height: 3.2rem;
+    	padding-top: 0;
+    }
 	.logo {
-		margin-top: -0.7rem;
+		margin-top: 0;
 	}
 	.logo img {
-		max-width: 65px;
+		max-width: 40px;
+	}
+	.smart_block {
+		margin-top: 8px;
 	}
 	#main_content {
 		padding: 0;
 	}
 	#main_content h1 {
-		font-size: 22px;
-		line-height: 30px;
-		font-weight: 700;
-		margin:0;
+		font-family: Roboto Condensed;
+		font-size: 20px;
+	    line-height: 20px;
+	    font-weight: bold;
+	    margin: 0;
+	    width: 70%;
 	}
 	#main_content h3 {
-		font-size: 13px;
+		font-family: Roboto Condensed;
+		font-size: 10px;
+		line-height: 10px;
+		margin: 10px 0 0 2px;
 	}
 	.clock_width {
+		margin-top: 10px;
 		max-width: 10px;
 	}
 	.top_right_block .img_responsive {
 		max-width: 85%;
+	}
+	.image_float {
+		top:0;
 	}
 	.cta_button_area {
 		margin: 10px 0;
@@ -278,11 +297,11 @@ Responsiveness Fixes
 		box-shadow: 2px 4px 6px 1px rgba(30, 30, 30, 0.3);
 	}
 	h3 {
-		font-size: 20px;
-		margin-bottom: 10px;
+		font-size: 18px;
+		margin: 10px 0;
 	}
 	.intro h2 {
-		font-size: 20px;
+		font-size: 18px;
 		color: #231F20;
 		line-height: 30px;
 		opacity: 1;
@@ -292,30 +311,37 @@ Responsiveness Fixes
 		font-size: 14px;
 		font-weight: 400;
 		color: #231F20;
-		line-height: 20px;
+		line-height: 13px;
 		opacity: 1;
 		margin:5px 0;
 	}
 	.outpadding {
 		padding:0;
 	}
+	#what_is_app.subsection {
+		padding:0;
+	}
+	.box_right_triangle {
+		display: block;
+	}
 	.phone-04 {
 		margin-top: -54px;
 	}
 	.triangle_box {
 		margin: 4px 0;
+		padding:0 20px;
 	}
 	.image_not_padding {
 		padding:0;
 	}
 	.box_right_border p {
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 16px;
 		font-weight: 300;
 		margin:0 6px 0 6px;
 	}
 	.box_left_border p {
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 16px;
 		font-weight: 300;
 		margin:0 6px 0 6px;
@@ -335,18 +361,22 @@ Responsiveness Fixes
 		width: 100%; 
 	}
 	.puzzle_right {
-		background: url('../images/puzzle-02_2x.png') no-repeat top right;
-		background-size: 20% auto;
+		background: none;
 	}
 	.item {
 		margin-bottom: 0;
 	}
+	.slide_top_text {
+    	width: 100%; 
+   	}
+   	.img_first_slide {
+   		width: 100%
+   	}
 	#owl-demo .item img{
-		max-width: 80px;
+		max-width: 100%;
 	}
 	.top_carusel {
-		background: url('../images/phone-03_2x.png') no-repeat center bottom;
-		background-size: contain;
+		background: none;
 	}
 	.back_puzzle_left {
 		margin-top: 20px;

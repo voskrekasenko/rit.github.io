@@ -23,6 +23,36 @@ html {
 body {
   overflow: hidden;
   margin: 0; }
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/roboto-bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/roboto-light.ttf);
+  font-weight: light;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/roboto-medium.ttf);
+  font-weight: medium;
+}
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(fonts/robotocondensed-bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(fonts/robotocondensed-light.ttf);
+  font-weight: light;
+}
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(fonts/robotocondensed-regular.ttf);
+  font-weight: regular;
+}
 
 /* HTML5 display definitions
    ========================================================================== */

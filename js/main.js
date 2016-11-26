@@ -123,125 +123,125 @@ var App = { init: function() { App.HomepageHeight();
     // Elements Animation
     Elements_animation: function() {
 		$('#what_is_app').waypoint(function() {
-            setTimeout(function(){$('.what_is_app_anim1').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.what_is_app_anim1').addClass('animated fadeInUp')},0);
         }, { offset: '50%' }); 
 
         $('#cta_download').waypoint(function() {
-            setTimeout(function(){$('.first_anim1').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.first_anim1').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });    
     
     	$('#feature1').waypoint(function() {
-            setTimeout(function(){$('.what_is_app_anim2').addClass('animated fadeInLeft')},400);
-            setTimeout(function(){$('.what_is_app_anim3').addClass('animated fadeInRight')},400);
+            setTimeout(function(){$('.what_is_app_anim2').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.what_is_app_anim3').addClass('animated fadeInRight')},0);
         }, { offset: '50%' }); 
 		
         $('#feature2').waypoint(function() {
-            setTimeout(function(){$('.what_is_app_anim4').addClass('animated fadeInLeft')},400);
-            setTimeout(function(){$('.what_is_app_anim5').addClass('animated fadeInRight')},400);
+            setTimeout(function(){$('.what_is_app_anim4').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.what_is_app_anim5').addClass('animated fadeInRight')},0);
         }, { offset: '50%' }); 
     
 		$('#feature3').waypoint(function() {
-            setTimeout(function(){$('.what_is_app_anim6').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.what_is_app_anim7').addClass('animated fadeInLeft')},400);
-            setTimeout(function(){$('.what_is_app_anim8').addClass('animated fadeInLeft')},400);
-            setTimeout(function(){$('.what_is_app_anim9').addClass('animated fadeInRight')},400);
-            setTimeout(function(){$('.what_is_app_anim10').addClass('animated fadeInRight')},400);
+            setTimeout(function(){$('.what_is_app_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.what_is_app_anim7').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.what_is_app_anim8').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.what_is_app_anim9').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.what_is_app_anim10').addClass('animated fadeInRight')},0);
         }, { offset: '50%' }); 
     
     
     
     	$('#artefacts').waypoint(function() {
-            setTimeout(function(){$('.artefacts_anim1').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim2').addClass('animated fadeInLeft')},400);
-            setTimeout(function(){$('.artefacts_anim3').addClass('animated fadeInRight')},400);
-            setTimeout(function(){$('.artefacts_anim4').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim5').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim6').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim7').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim8').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim9').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.artefacts_anim10').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.artefacts_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim2').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.artefacts_anim3').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.artefacts_anim4').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim5').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.artefacts_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
         
         $('#chips').waypoint(function() {
-            setTimeout(function(){$('.chips_anim1').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.chips_anim2').addClass('animated fadeInLeft')},200);
-            setTimeout(function(){$('.chips_anim3').addClass('animated fadeInRight')},200);
-            setTimeout(function(){$('.chips_anim4').addClass('animated fadeInLeft')},200);
-            setTimeout(function(){$('.chips_anim5').addClass('animated fadeInRight')},200);
-            setTimeout(function(){$('.chips_anim6').addClass('animated fadeInRight')},200);
-            setTimeout(function(){$('.chips_anim7').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.chips_anim8').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.chips_anim9').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.chips_anim10').addClass('animated fadeInUp')},200);
+            setTimeout(function(){$('.chips_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.chips_anim2').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.chips_anim3').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.chips_anim4').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.chips_anim5').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.chips_anim6').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.chips_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.chips_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.chips_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.chips_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' }); 
         
         
         
         $('#tasks').waypoint(function() {
-            setTimeout(function(){$('.tasks_anim1').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim2').addClass('animated fadeInLeft')},200);
-            setTimeout(function(){$('.tasks_anim3').addClass('animated fadeInRight')},200);
-            setTimeout(function(){$('.tasks_anim4').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim5').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim6').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim7').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim8').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim9').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.tasks_anim10').addClass('animated fadeInUp')},200);
+            setTimeout(function(){$('.tasks_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim2').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.tasks_anim3').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.tasks_anim4').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim5').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.tasks_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
         
         
         $('#shelves').waypoint(function() {
-            setTimeout(function(){$('.shelves_anim1').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.shelves_anim2').addClass('animated fadeInLeft')},200);
-            setTimeout(function(){$('.shelves_anim3').addClass('animated fadeInRight')},200);
-            setTimeout(function(){$('.shelves_anim4').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.shelves_anim5').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.shelves_anim6').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.shelves_anim7').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.shelves_anim8').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.shelves_anim9').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.shelves_anim10').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.shelves_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim2').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.shelves_anim3').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.shelves_anim4').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim5').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.shelves_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
         
         $('#teenerteam').waypoint(function() {
-            setTimeout(function(){$('.teenerteam_anim1').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim2').addClass('animated fadeInLeft')},400);
-            setTimeout(function(){$('.teenerteam_anim3').addClass('animated fadeInRight')},400);
-            setTimeout(function(){$('.teenerteam_anim4').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim5').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim6').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim7').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim8').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim9').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.teenerteam_anim10').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.teenerteam_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim2').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('.teenerteam_anim3').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('.teenerteam_anim4').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim5').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.teenerteam_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
         
         $('#video').waypoint(function() {
-            setTimeout(function(){$('.video_anim1').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim2').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim3').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim4').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim5').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim6').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim7').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim8').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim9').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.video_anim10').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.video_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim2').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim3').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim4').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim5').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.video_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
         
         $('#contact').waypoint(function() {
-            setTimeout(function(){$('.contact_anim1').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.contact_anim2').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.contact_anim3').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.contact_anim4').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.contact_anim5').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('.contact_anim6').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.contact_anim7').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.contact_anim8').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.contact_anim9').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('.contact_anim10').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('.contact_anim1').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim2').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim3').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim4').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim5').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim6').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim7').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim8').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim9').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('.contact_anim10').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
           
         
