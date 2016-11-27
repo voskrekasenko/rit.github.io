@@ -152,6 +152,24 @@ Responsiveness Fixes
 	.item {
 		margin-bottom: 0;
 	}
+	.puzzle_right {
+		background: none;
+	}
+	.top_carusel {
+		background: none;
+	}
+	.back_puzzle_left {
+		background: none;
+	}
+	.puzzle_04 {
+		background: none;
+	}
+	.puzzle_06 {
+		background: none;
+	}
+	.bottom_middle_puzzle {
+		background: none;
+	}
 	.about_video_player {
 		padding-top: 2rem;
 	}
@@ -208,36 +226,11 @@ Responsiveness Fixes
 	.hero_fullscreen {
     	padding-bottom: 20rem !important; 
 	}
-}
-@media (min-width: 480px) and (max-width: 550px) {
-	#main_content h1 {
-		font-size: 22px;
-		line-height: 24px;
-		font-weight: 700;
-	}
-	#main_content h3 {
-		font-size: 14px;
-		margin-left: 2px;
-	}
-	.top_left_block {
-    	margin-top: 6.4rem;
-    }
-	.cta_button_area {
-		margin: 10px 0;
-	}
-	.want_download {
-		height: 30px;
-		font-size: 11px;
-		border-radius: 6px;
-		padding: 0 1.2rem;
-	}
-	.home_content {
-		padding: 0 4px;
-	}
-	.hero_fullscreen {
-    	padding-bottom: 17rem !important; 
+	.inner_paragr {
+		width: 100%;
 	}
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
 	.hero_fullscreen {
 		padding-bottom: 16% !important;
@@ -477,7 +470,42 @@ Responsiveness Fixes
 		box-shadow: none;
 	}
 }
+@media (min-width: 480px) and (max-width: 550px) {
+	#what_is_app.subsection {
+		padding-top: 0;
+	}
 
+	#main_content h1 {
+		font-size: 22px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+	#main_content h3 {
+		font-size: 14px;
+		margin-left: 2px;
+	}
+	.top_left_block {
+    	margin-top: 6.4rem;
+    }
+	.cta_button_area {
+		margin: 10px 0;
+	}
+	.want_download {
+		height: 30px;
+		font-size: 11px;
+		border-radius: 6px;
+		padding: 0 1.2rem;
+	}
+	.home_content {
+		padding: 0 4px;
+	}
+	.hero_fullscreen {
+    	padding-bottom: 25% !important; 
+	}
+	.inner_paragr {
+		width: 100%;
+	}
+}
 @media (min-width: 1440px) and (max-width: 1920px) {
 	#more_info {
 		margin-top: 60px;
