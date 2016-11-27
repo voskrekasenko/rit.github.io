@@ -341,6 +341,7 @@ Responsiveness Fixes
 		padding:0;
 	}
 	.box_right_border p {
+		font-family: Roboto;
 		font-size: 13px;
 		line-height: 13px;
 		font-weight: 400;
@@ -362,6 +363,7 @@ Responsiveness Fixes
 	.upper_leter {
 		font-family: Roboto Condensed;
 		font-size: 14px;
+		line-height: 13px
 	}
 	.headler_width {
 		width: 100%; 
