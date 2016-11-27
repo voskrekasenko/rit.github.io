@@ -93,7 +93,7 @@ Responsiveness Fixes
 	.feature_box .feature_content { padding-top:2rem; padding-bottom:0;}
 	.feature_image { margin-top:2rem; padding-bottom:3rem;}
 }
-@media (min-width: 768px) and (max-width: 994px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.logo {
 		margin-top: -1.3rem;
 	}
@@ -114,13 +114,38 @@ Responsiveness Fixes
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
+	.hero_fullscreen.background_solid.solid_01 {
+		background: none;
+		background-color: #FFCD05;
+	}
+	.hero_fullscreen {
+		padding-bottom: 0% !important;
+	}
 	.logo {
 		margin-top: -1.42rem;
 	}
 	.top_left_block {
     	margin-top: 7rem;
     }
-	#main_content h1 {
+    #main_content h1 {
+		font-family: Roboto;
+		font-size: 36px;
+	    line-height: 36px;
+	    font-weight: bold;
+	    margin: 0;
+	    width: 96%;
+	}
+	#main_content h3 {
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 12px;
+		margin: 20px 0 0 2px;
+	}
+	.clock_width {
+		margin-top: 20px;
+		/*max-width: 10px;*/
+	}
+	/*#main_content h1 {
 		font-size: 35px;
 		line-height: 41px;
 	}
@@ -132,7 +157,7 @@ Responsiveness Fixes
 		font-size: 20px;
 		border-radius: 10px;
 		padding: 0 1.8rem;
-	}
+	}*/
 	h3 {
 		font-size: 30px;
 	}
@@ -223,17 +248,18 @@ Responsiveness Fixes
 	.home_content {
 		padding: 0;
 	}
-	.hero_fullscreen {
-    	padding-bottom: 20rem !important; 
-	}
 	.inner_paragr {
 		width: 100%;
 	}
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+	.hero_fullscreen.background_solid.solid_01 {
+		background: none;
+		background-color: #FFCD05;
+	}
 	.hero_fullscreen {
-		padding-bottom: 16% !important;
+		padding-bottom: 0% !important;
 	}
 	.header_block {
 	    margin-top: 50px;
@@ -256,16 +282,16 @@ Responsiveness Fixes
 	}
 	#main_content h1 {
 		font-family: Roboto Condensed;
-		font-size: 18px;
-	    line-height: 20px;
+		font-size: 24px;
+	    line-height: 24px;
 	    font-weight: bold;
 	    margin: 0;
-	    width: 71%;
+	    width: 96%;
 	}
 	#main_content h3 {
 		font-family: Roboto Condensed;
-		font-size: 8px;
-		line-height: 9px;
+		font-size: 12px;
+		line-height: 12px;
 		margin: 20px 0 0 2px;
 	}
 	.clock_width {
@@ -472,7 +498,7 @@ Responsiveness Fixes
 }
 @media (min-width: 480px) and (max-width: 550px) {
 	#what_is_app.subsection {
-		padding-top: 0;
+		padding-top: 34px;
 	}
 
 	#main_content h1 {
@@ -498,9 +524,6 @@ Responsiveness Fixes
 	}
 	.home_content {
 		padding: 0 4px;
-	}
-	.hero_fullscreen {
-    	padding-bottom: 25% !important; 
 	}
 	.inner_paragr {
 		width: 100%;
