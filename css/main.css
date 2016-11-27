@@ -1,13 +1,4 @@
 /*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project:	    SPOT - Landing Page Template
-Version:	    1.0
-Last change:	28/04/2015
-Author:         Mat Przegietka 
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
 [Table of contents]
 
 1.  Helper Classes
@@ -496,6 +487,7 @@ Author:         Mat Przegietka
 #menu_bar {
 	text-align: center;
 	background-color: #FFCD05;
+	box-shadow: 0 1px 10px #666;
 }
 .menu_bar {
 	height:5.14rem;
@@ -563,11 +555,11 @@ Author:         Mat Przegietka
 .logo {
 	float:left; 
 	line-height: 0; 
-	margin-top:-0.7rem;
+	margin-top:-1.1rem;
 }
 #menu_bar ul li a {
-	font-family: Roboto Condensed;
-	font-weight: 300;
+	font-family: Roboto;
+	font-weight: 700;
 	font-size: 1rem;
 	color: #fff;
 	padding: 0.6rem 1rem;
@@ -926,6 +918,7 @@ video, object {
 	opacity: 1;
 }
 .intro h3 {
+	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 400;
 	/*font-stretch:condensed;*/
@@ -1512,6 +1505,7 @@ label {
     position: absolute;
     right: -3%;
     top: 8%;
+    z-index: 100;
 }
 #more_info {
 	padding: 0;
@@ -1575,6 +1569,7 @@ label {
 .box_right_border p,
 .box_left_border p {
 	margin: 1rem 1.2rem;
+	font-family: Roboto;
 	font-weight: 400;
 	font-size: 14px;
 	color: #231F20;
@@ -1664,7 +1659,7 @@ label {
 	opacity: 1;
 }
 .img_first_slide {
-	width: 40%;
+	width: 56%;
 }
 .owl-pagination {
 	margin: 0 auto;
@@ -1732,6 +1727,9 @@ label {
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: flex-end;
+}
+.line_block_images img {
+	margin:0 6px;
 }
 .puzzle_06 {
 	background: url('../images/puzzle-06_2x.png') no-repeat top right;
@@ -1876,6 +1874,14 @@ label {
 	padding: 0;
 	height: 100%;
 	box-shadow: -11px 0px 16px -13px rgba(50, 50, 50, 0.5);
+}
+.middle_footer_logo {
+	display: flex;
+	flex-flow: column wrap;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 .footer_logo img {
 	width:50%;

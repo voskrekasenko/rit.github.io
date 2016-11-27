@@ -240,7 +240,7 @@ Responsiveness Fixes
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	.hero_fullscreen {
-		padding-bottom: 32px !important;
+		padding-bottom: 16% !important;
 	}
 	.header_block {
 	    margin-top: 50px;
@@ -341,15 +341,15 @@ Responsiveness Fixes
 		padding:0;
 	}
 	.box_right_border p {
-		font-size: 12px;
-		line-height: 16px;
-		font-weight: 300;
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 400;
 		margin:0 6px 0 6px;
 	}
 	.box_left_border p {
-		font-size: 12px;
-		line-height: 16px;
-		font-weight: 300;
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 400;
 		margin:0 6px 0 6px;
 	}
 	.feature_image {
