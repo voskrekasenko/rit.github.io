@@ -1501,10 +1501,10 @@ label {
 	width: 60%;
 }
 .image_float {
-	width: 48%;
+	width: 56%;
     position: absolute;
-    right: -3%;
-    top: 8%;
+    right: -4%;
+    top: -6%;
     z-index: 100;
 }
 #more_info {
@@ -1659,7 +1659,7 @@ label {
 	opacity: 1;
 }
 .img_first_slide {
-	width: 56%;
+	width: 50%;
 }
 .owl-pagination {
 	margin: 0 auto;

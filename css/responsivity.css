@@ -283,7 +283,7 @@ Responsiveness Fixes
 		max-width: 85%;
 	}
 	.image_float {
-		top:0;
+		top:-14%;
 	}
 	.cta_button_area {
 		margin: 20px 0;
@@ -365,6 +365,10 @@ Responsiveness Fixes
 		font-size: 14px;
 		line-height: 13px
 	}
+	.inner_paragr {
+		width: 100%;
+		margin: 2px 0;
+	}
 	.headler_width {
 		width: 100%; 
 	}
@@ -435,6 +439,7 @@ Responsiveness Fixes
 	}
 	.block_slider_text {
 		margin-top: 20px;
+		padding: 0;
 	}
 	.without_margin {
 		margin-top: 0;
