@@ -105,6 +105,9 @@ Responsiveness Fixes
 	#main_content h3 {
 		font-size: 20px;
 	}
+	.hero_fullscreen {
+		padding-bottom: 9% !important;
+	}
 	.want_download {
 		height: 36px;
 		font-size: 16px;
@@ -113,7 +116,7 @@ Responsiveness Fixes
 	}
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 767px) {
 	.hero_fullscreen.background_solid.solid_01 {
 		background: none;
 		background-color: #FFCD05;
@@ -308,32 +311,32 @@ Responsiveness Fixes
 		margin: 20px 0;
 	}
 	.want_download {
-		height: 24px;
-		line-height: 24px;
-		font-size: 10px;
-		border-radius: 4px;
-		padding: 0 1.2rem;
+		height: 34px;
+		line-height: 34px;
+		font-size: 12px;
+		border-radius: 6px;
+		padding: 0 1.4rem;
 		box-shadow: 1px 1px 4px 0px rgba(30, 30, 30, 0.2);
 	}
 	.want_download:hover {
 		box-shadow: 2px 2px 4px 1px rgba(30, 30, 30, 0.3);
 	}
 	h3 {
-		font-size: 18px;
+		font-size: 22px;
 		margin: 10px 0;
 	}
 	.intro h2 {
-		font-size: 18px;
+		font-size: 22px;
 		color: #231F20;
-		line-height: 30px;
+		line-height: 26px;
 		opacity: 1;
 		margin:5px 0;
 	}
 	.intro h3 {
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 400;
 		color: #231F20;
-		line-height: 13px;
+		line-height: 20px;
 		opacity: 1;
 		margin:5px 0;
 	}
@@ -359,18 +362,22 @@ Responsiveness Fixes
 	.image_not_padding {
 		padding:0;
 	}
+	.box_right_border,
+	.box_left_border {
+		margin-top: 6px;
+	}
 	.box_right_border p {
 		font-family: Roboto;
 		font-size: 13px;
-		line-height: 13px;
+		line-height: 21px;
 		font-weight: 400;
-		margin:0 6px 0 6px;
+		margin:2px 6px;
 	}
 	.box_left_border p {
 		font-size: 13px;
-		line-height: 13px;
+		line-height: 21px;
 		font-weight: 400;
-		margin:0 6px 0 6px;
+		margin:2px 6px;
 	}
 	.feature_image {
 		margin:0;
@@ -422,6 +429,7 @@ Responsiveness Fixes
 	}
 	.box_tasks h2 {
 		font-size: 12px;
+		line-height: 13px
 	}
 	.line_block_images img {
 		margin: 0 2px;
@@ -441,7 +449,7 @@ Responsiveness Fixes
 		text-align: center;
 	}
 	.headler_puzzle_04 h3 {
-		width: 80%;
+		width: 86%;
 		margin: 0 auto;
 	}
 	.middle_puzzle {
@@ -532,5 +540,11 @@ Responsiveness Fixes
 @media (min-width: 1440px) and (max-width: 1920px) {
 	#more_info {
 		margin-top: 60px;
+	}
+	.cta_download_img {
+    	width: 7%;
+    }
+    .middle_puzzle {
+	    width: 7%;
 	}
 }
