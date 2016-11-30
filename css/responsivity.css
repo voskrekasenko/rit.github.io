@@ -420,7 +420,10 @@ Responsiveness Fixes
 		margin-top: 20px;
 		background: none;
 	}
-	#tasks {
+	/*#tasks {
+		margin-top: 20px;
+	}*/
+	.box_tasks {
 		margin-top: 20px;
 	}
 	.box_tasks p {
