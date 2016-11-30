@@ -1703,17 +1703,35 @@ label {
 	margin-top:4rem;
 	left: 50%;
 	width:1px;
-	height:200px;
+	height:300px;
 	background-color: #FFCD05;
 }
 .box_tasks {
-	display: flex;
+
+	/*display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
 	-ms-align-items: center;
-	align-items: center;
+	align-items: center;*/
+}
+.box_tasks img {
+
+	max-width: 40%;
+}
+
+.line_block_images {
+	display: block;
+	margin: 10px 0;
+	/*display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: flex-end;*/
+}
+.line_block_images img {
+	margin:0 6px;
 }
 .box_tasks p {
+	display: inline;
 	font-family:Roboto Condensed;
 	color: #231F20;
 	opacity: 1;
@@ -1721,15 +1739,7 @@ label {
 	font-size: 18px;
 	padding: 0 26px;
 	margin-top: 6%;
-}
-.line_block_images {
-	display: flex;
-	justify-content: center;
-	-ms-align-items: center;
-	align-items: flex-end;
-}
-.line_block_images img {
-	margin:0 6px;
+	width: 100%;
 }
 .puzzle_06 {
 	background: url('../images/puzzle-06_2x.png') no-repeat top right;

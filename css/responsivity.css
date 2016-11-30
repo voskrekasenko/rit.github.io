@@ -420,6 +420,9 @@ Responsiveness Fixes
 		margin-top: 20px;
 		background: none;
 	}
+	#tasks {
+		margin-top: 20px;
+	}
 	.box_tasks p {
 		font-size: 14px;
 		padding:8px;
@@ -428,8 +431,8 @@ Responsiveness Fixes
 		height: 140px;
 	}
 	.box_tasks h2 {
-		font-size: 12px;
-		line-height: 13px
+		font-size: 18px;
+		line-height: 18px
 	}
 	.line_block_images img {
 		margin: 0 2px;
