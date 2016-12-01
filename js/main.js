@@ -13,7 +13,8 @@ var App = { init: function() { App.HomepageHeight();
 							   App.Elements_animation();       // animations
 							   },
 
-	// Homepage Height
+
+    // Homepage Height
 	HomepageHeight: function() {
 	"use strict"; 
 	    var h = window.innerWidth/4;
@@ -101,11 +102,13 @@ var App = { init: function() { App.HomepageHeight();
         var id = cur && cur.length ? cur[0].id : "";
 
         if (lastId !== id) {
-        lastId = id;
-        // Set/remove active class
-        menuItems
-        .parent().removeClass("active")
-        .end().filter("[href=#"+id+"]").parent().addClass("active");
+            lastId = id;
+            // Set/remove active class
+            menuItems
+            .parent().removeClass("active")
+            .end().filter("[href=#"+id+"]").parent().addClass("active");
+            // var arrLink = document.getElementsByClassName("border_link");
+            // console.log(prevLink);
         }                   
     });
     
