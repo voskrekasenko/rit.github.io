@@ -118,7 +118,7 @@ Responsiveness Fixes
 		border-radius: 6px;
 		padding: 10px 1.8rem;
 	}
-	.middle_footer_logo img {
+	.middle_footer_logo a {
 		max-width: 56%;
 	}
 	.footer_logo {
@@ -165,7 +165,7 @@ Responsiveness Fixes
 	.clock_width {
 		margin-top: 20px;
 	}
-	.middle_footer_logo img {
+	.middle_footer_logo a {
 		max-width: 56%;
 	}
 	h3 {
@@ -533,7 +533,7 @@ Responsiveness Fixes
 		box-shadow: none;
 		height: 63%;
 	}
-	.middle_footer_logo img {
+	.middle_footer_logo a {
 		max-width: 86%;
 	}
 	.footer_text {

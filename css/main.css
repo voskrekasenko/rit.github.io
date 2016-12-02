@@ -1900,7 +1900,7 @@ label {
 	justify-content: center;
 	height: 100%;
 }
-.middle_footer_logo img {
+.middle_footer_logo a {
 	max-width: 70%;
 }
 .footer_logo img {
