@@ -116,7 +116,7 @@ Responsiveness Fixes
 		height: 36px;
 		font-size: 16px;
 		border-radius: 6px;
-		padding: 0 1.8rem;
+		padding: 10px 1.8rem;
 	}
 	.middle_footer_logo img {
 		max-width: 56%;
@@ -259,13 +259,13 @@ Responsiveness Fixes
     	margin-top: 7rem;
     }
 	.cta_button_area {
-		margin: 10px 0;
+		margin: 25px 0;
 	}
 	.want_download {
 		height: 30px;
 		font-size: 14px;
 		border-radius: 6px;
-		padding: 0 1.8rem;
+		padding: 8px 1.8rem;
 	}
 	.home_content {
 		padding: 0;
@@ -334,7 +334,7 @@ Responsiveness Fixes
 		line-height: 34px;
 		font-size: 12px;
 		border-radius: 6px;
-		padding: 0 1.4rem;
+		padding: 8px 1.4rem;
 		box-shadow: 1px 1px 4px 0px rgba(30, 30, 30, 0.2);
 	}
 	.want_download:hover {
@@ -562,13 +562,13 @@ Responsiveness Fixes
     	margin-top: 6.4rem;
     }
 	.cta_button_area {
-		margin: 10px 0;
+		margin: 25px 0;
 	}
 	.want_download {
 		height: 30px;
 		font-size: 11px;
 		border-radius: 6px;
-		padding: 0 1.2rem;
+		padding: 10px 1.2rem;
 	}
 	.home_content {
 		padding: 0 4px;
