@@ -573,7 +573,7 @@
 	border-right: none !important;
 }
 #menu_bar ul li.active a{
-	color: #EB4B28;
+	color: #EB4B28 !important;
 	padding: 0.6rem 1rem;
 	border: solid 1px #fff !important;
 }
@@ -732,7 +732,7 @@ h3 {
 #main_content h2, 
 #main_content h3,
 #main_content h6,
-.cta_button_area {
+.cta_button_custom {
 	position:relative;
 	font-family: Roboto Condensed;
 	font-weight: 700;
@@ -774,12 +774,12 @@ h3 {
 
 /*-- CTA Area --*/
 
-.cta_button_area {
+.cta_button_custom {
 	margin-top:3.44rem;
 	margin-bottom:3rem;
 }
 
-.cta_button_area a{
+.cta_button_custom a{
 	/*opacity:0.5;*/
 	-webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -787,7 +787,7 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
 
-.cta_button_area a:hover {
+.cta_button_custom a:hover {
 	opacity:1
 }
 

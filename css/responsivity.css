@@ -258,7 +258,7 @@ Responsiveness Fixes
 	.top_left_block {
     	margin-top: 7rem;
     }
-	.cta_button_area {
+	.cta_button_custom {
 		margin: 25px 0;
 	}
 	.want_download {
@@ -326,7 +326,7 @@ Responsiveness Fixes
 	.image_float {
 		top:-14%;
 	}
-	.cta_button_area {
+	.cta_button_custom {
 		margin: 20px 0;
 	}
 	.want_download {
@@ -561,7 +561,7 @@ Responsiveness Fixes
 	.top_left_block {
     	margin-top: 6.4rem;
     }
-	.cta_button_area {
+	.cta_button_custom {
 		margin: 25px 0;
 	}
 	.want_download {
