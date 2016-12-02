@@ -78,7 +78,7 @@
 								<li class="visible-lg visible-md"><a class="border_link" href="#shelves" >Полки</a></li>
 								<li class="visible-lg visible-md"><a class="border_link" href="#tasks" >Организация задач</a></li>
 								<li class="visible-lg visible-md last_li"><a class="border_link" href="#video" >Видео</a></li>
-								<div class="hidden-lg hidden-md mobile_nav_open_button "><a href="" id="showRight"><div data-icon="&#xe2f3;" class="button_icon close_icon"></div></a></div>
+								<div class="hidden-lg hidden-md mobile_nav_open_button "><a href="" id="showRight"><div id="sm_block" data-icon="&#xe2f3;" class="button_icon close_icon"></div></a></div>
 							</ul>
 						</nav>
 					</div>
@@ -416,12 +416,21 @@
 			menuRight = document.getElementById( 'cbp-spmenu-s2' ),
 			body = document.body;
 		
+		document.onclick = function(event) {
+			var smBlock = document.getElementById('sm_block');
+			var myDiv = document.getElementById('cbp-spmenu-s2');
+			if ((event.target.id !== myDiv.id)&&(event.target.id !== smBlock.id)){
+				// classie.toggle( this, 'active' );
+				classie.remove( menuRight, 'cbp-spmenu-open' );
+				// return false;
+			}
+		}
 		showRight.onclick = function(event) {
 			"use strict";
 			event.preventDefault();
 			classie.toggle( this, 'active' );
 			classie.toggle( menuRight, 'cbp-spmenu-open' );
-			disableOther( 'showRight' );
+			// disableOther( 'showRight' );
 			return false;
 		};
 	
@@ -430,7 +439,7 @@
 			event.preventDefault();
 			classie.toggle( this, 'active' );
 			classie.toggle( menuRight, 'cbp-spmenu-open' );
-			disableOther( 'showRight' );
+			// disableOther( 'showRight' );
 			return false;
 		};
 	</script>
