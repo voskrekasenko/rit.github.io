@@ -1,6 +1,9 @@
 html {
     font-family: Open Sans;
 }
+.fix_padding {
+    padding: 0;
+}
 .wrapper-questionary {
     background: url('img/bg_@2x.png');
     background-size: cover;
@@ -10,7 +13,8 @@ html {
 }
 .header_block {
     position: relative;
-    background: url('img/bg_header.png') no-repeat;
+    background: url('img/bg_header_@2x.png') no-repeat;
+    background-size: 100%;
     max-width: 900px;
     height: 170px;
     margin: 0 auto;
