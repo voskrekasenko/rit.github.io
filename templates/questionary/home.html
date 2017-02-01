@@ -1,0 +1,263 @@
+<!--header-->
+<section class="parent_block">
+	<div class="teenagers_block">
+		<img class="teenagers_img" src="css/img/img-01.png" alt="">
+	</div>
+	<div class="teenagers_text_block">
+		<div class="bracket_left"></div>
+		<div class="teenagers_text">
+			<p>Мы создаем мир, в котором каждый подросток может реализовать свой потенциал; мир, свободный от дискриминации во всех сферах, включая ВИЧ; мир, в котором права всех подростков и молодежи не нужно защищать, потому что они всецело соблюдаются.</p>
+		</div>
+		<div class="bracket_right"></div>
+	</div>
+</section>
+
+<!--name-->
+<section class="row parent_block">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5>Имя</h5>
+			<md-input-container class="field">
+				<label>Ваше имя</label>
+				<input ng-model="vm.male" minlength="3" required>
+			</md-input-container>
+		</div>
+
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5>Фамилия</h5>
+			<md-input-container class="field">
+				<label>Ваша фамилия</label>
+				<input ng-model="vm.female" minlength="3" required>
+			</md-input-container>
+		</div>
+	</div>
+</section>
+
+<!--gender-->
+<section class="row parent_block">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+			<div class="radio_box_block">
+				<h5>Гендер</h5>
+				<div class="radio_list">
+					<div class="radio_field col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+						<label>
+							<input class="input_radio" type="radio" value="female" ng-model="vm.gender">
+							<img src="css/img/btn-01_@2x.png" class="radio-image" ng-if="vm.gender!='female'"/>
+							<img src="css/img/active/btn-01a_@2x.png" class="radio_active" ng-if="vm.gender=='female'"/>
+						</label>
+						<h6>Женский</h6>
+					</div>
+					<div class="radio_field col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+						<label>
+							<input class="input_radio" type="radio" value="male" ng-model="vm.gender">
+							<img src="css/img/btn-02_@2x.png" class="radio-image" ng-if="vm.gender!='male'"/>
+							<img src="css/img/active/btn-02a_@2x.png" class="radio_active" ng-if="vm.gender=='male'"/>
+						</label>
+						<h6>Мужской</h6>
+					</div>
+					<div class="radio_field col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+						<label>
+							<input class="input_radio" type="radio" value="otherGender" ng-model="vm.gender">
+							<img src="css/img/btn-03_@2x.png" class="radio-image" ng-if="vm.gender!='otherGender'"/>
+							<img src="css/img/active/btn-03a_@2x.png" class="radio_active" ng-if="vm.gender=='otherGender'"/>
+						</label>
+						<h6>Ваш вариант</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="entering_information col-xs-10 col-sm-6 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" ng-if="vm.gender=='otherGender'">
+			<md-input-container class="field">
+				<label>Ваш вариант</label>
+				<input minlength="3" ng-required="true" ng-model="vm.otherGender">
+			</md-input-container>
+		</div>
+	</div>
+</section>
+<!--age-->
+<section class="row parent_block">
+	<div class="entering_information col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h5 class="align_center">Возраст</h5>
+		<div class="radio_list col-xs-12 col-sm-10 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-1 col-md-offset-2 col-lg-offset-2">
+			<div class="radio_field col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xs-offset-0 col-sm-offset-2 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="13-15" ng-model="vm.age">
+					<img src="css/img/btn-04_@2x.png" class="radio-image" ng-if="vm.age!='13-15'"/>
+					<img src="css/img/active/btn-04a_@2x.png" class="radio_active" ng-if="vm.age=='13-15'"/>
+				</label>
+				<h6>13–15</h6>
+			</div>
+			<div class="radio_field col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="16-18" ng-model="vm.age">
+					<img src="css/img/btn-05_@2x.png" class="radio-image" ng-if="vm.age!='16-18'"/>
+					<img src="css/img/active/btn-05a_@2x.png" class="radio_active" ng-if="vm.age=='16-18'"/>
+				</label>
+				<h6>16–18</h6>
+			</div>
+			<div class="radio_field col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xs-offset-0 col-sm-offset-2 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="19-24" ng-model="vm.age">
+					<img src="css/img/btn-06_@2x.png" class="radio-image" ng-if="vm.age!='19-24'"/>
+					<img src="css/img/active/btn-06a_@2x.png" class="radio_active" ng-if="vm.age=='19-24'"/>
+				</label>
+				<h6>19–24</h6>
+			</div>
+			<div class="radio_field radio_field col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="25+" ng-model="vm.age">
+					<img src="css/img/btn-07_@2x.png" class="radio-image" ng-if="vm.age!='25+'"/>
+					<img src="css/img/active/btn-07a_@2x.png" class="radio_active" ng-if="vm.age=='25+'"/>
+				</label>
+				<h6>25+</h6>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--job-->
+<section class="row parent_block">
+	<div class="entering_information col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h5 class="align_center">Сфера деятельности</h5>
+		<div class="radio_list col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="radio_field col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xs-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-1">
+				<label>
+					<input class="input_radio" type="radio" value="school" ng-model="vm.job">
+					<img src="css/img/btn-08_@2x.png" class="radio-image" ng-if="vm.job!='school'"/>
+					<img src="css/img/active/btn-08a_@2x.png" class="radio_active" ng-if="vm.job=='school'"/>
+				</label>
+				<h6>Школьник</h6>
+			</div>
+			<div class="radio_field col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="student" ng-model="vm.job">
+					<img src="css/img/btn-09_@2x.png" class="radio-image" ng-if="vm.job!='student'"/>
+					<img src="css/img/active/btn-09a_@2x.png" class="radio_active" ng-if="vm.job=='student'"/>
+				</label>
+				<h6>Студент</h6>
+			</div>
+			<div class="radio_field col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="working" ng-model="vm.job">
+					<img src="css/img/btn-10_@2x.png" class="radio-image" ng-if="vm.job!='working'"/>
+					<img src="css/img/active/btn-10a_@2x.png" class="radio_active" ng-if="vm.job=='working'"/>
+				</label>
+				<h6>Работаю</h6>
+			</div>
+			<div class="radio_field col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xs-offset-0 col-sm-offset-2 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="organization" ng-model="vm.job">
+					<img src="css/img/btn-11_@2x.png" class="radio-image" ng-if="vm.job!='organization'"/>
+					<img src="css/img/active/btn-11a_@2x.png" class="radio_active" ng-if="vm.job=='organization'"/>
+				</label>
+				<h6>Организация</h6>
+			</div>
+			<div class="radio_field col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
+				<label>
+					<input class="input_radio" type="radio" value="otherJob" ng-model="vm.job">
+					<img src="css/img/btn-12_@2x.png" class="radio-image" ng-if="vm.job!='otherJob'"/>
+					<img src="css/img/active/btn-12a_@2x.png" class="radio_active" ng-if="vm.job=='otherJob'"/>
+				</label>
+				<h6>Ваш вариант</h6>
+			</div>
+		</div>
+
+		<div class="entering_information col-xs-10 col-sm-6 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" ng-if="vm.job=='otherJob'">
+			<md-input-container class="field">
+				<label>Ваш вариант</label>
+				<input minlength="3" ng-required="true" ng-model="otherJob">
+			</md-input-container>
+		</div>
+	</div>
+</section>
+
+<!--country and city-->
+<section class="row parent_block">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Страна</h5>
+			<md-input-container class="field field_with_bg country_field">
+				<label>Ваша страна</label>
+				<input ng-model="vm.country" minlength="3" required>
+			</md-input-container>
+		</div>
+
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Город</h5>
+			<md-input-container class="field field_with_bg city_field">
+				<label>Ваш город</label>
+				<input ng-model="vm.city" minlength="3" required>
+			</md-input-container>
+		</div>
+	</div>
+</section>
+
+<!--email-->
+<section class="row parent_block">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+			<h5 class="align_center">E-mail</h5>
+			<md-input-container class="field field_with_bg email_field">
+				<label>Ваша страна</label>
+				<input ng-model="vm.email" minlength="3" required>
+			</md-input-container>
+		</div>
+	</div>
+</section>
+
+<!--other info-->
+<section class="row parent_block">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Номер телефона</h5>
+			<md-input-container class="field field_with_bg phone_field">
+				<label>Ваш номер</label>
+				<input ng-model="vm.phone" minlength="3">
+			</md-input-container>
+		</div>
+
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Facebook</h5>
+			<md-input-container class="field field_with_bg facebook_field">
+				<label>Ваш фейсбук</label>
+				<input ng-model="vm.facebook" minlength="3">
+			</md-input-container>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Skype</h5>
+			<md-input-container class="field field_with_bg skype_field">
+				<label>Ваш скайп</label>
+				<input ng-model="vm.skype" minlength="3">
+			</md-input-container>
+		</div>
+
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Twitter</h5>
+			<md-input-container class="field field_with_bg twitter_field">
+				<label>Ваш твитер</label>
+				<input ng-model="vm.twitter" minlength="3">
+			</md-input-container>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">VK</h5>
+			<md-input-container class="field field_with_bg vk_field">
+				<label>Ваш вк</label>
+				<input ng-model="vm.vkontakte" minlength="3">
+			</md-input-container>
+		</div>
+
+		<div class="entering_information col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h5 class="align_center">Instagram</h5>
+			<md-input-container class="field field_with_bg insta_field">
+				<label>Ваш инстаграм</label>
+				<input ng-model="vm.instagram" minlength="3">
+			</md-input-container>
+		</div>
+	</div>
+</section>

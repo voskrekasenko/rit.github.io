@@ -1,0 +1,28 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 991px){
+    .about_top_block {
+        padding: 15px;
+    }
+    .text_block {
+        padding: 0;
+        margin: 0 auto;
+        border: none;
+        box-shadow: none;
+        font: normal 16px/25px "Open Sans";
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-device-width: 768px){
+    .about_top_block {
+        background: none;
+    }
+    .parent_block {
+        padding: 10px 0 50px 0;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .about_top_block {
+        background: url('img/about/img_@2x.png') left top no-repeat;
+        background-size:100%;
+    }
+}

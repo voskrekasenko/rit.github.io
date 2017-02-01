@@ -1,0 +1,303 @@
+.about_top_block {
+    width: 100%;
+    background: url('img/about/img_@2x.png') center center no-repeat;
+    background-size: 100%;
+    padding: 60px 200px;
+}
+.text_block {
+    width:100%;
+    max-width: 970px;
+    padding: 35px 20px;
+    margin: 0 auto;
+    border: 4px solid #FFCC00;
+    box-shadow: 0px 4px 24px -3px #999;
+    font: normal 16px/25px "Open Sans";
+}
+.firstcharacter {
+    float: left;
+    font: bold 56px/30px "Open Sans";
+    color: #FFCC00;
+    padding-top: 10px;
+    margin-right: 6px;
+}
+.word_part {
+    font: bold 16px/25px "Open Sans";
+    color: #FFCC00;
+    clear: both;
+}
+.about_history {
+    background: url('img/about/bg-01_@2x.png.png') left top repeat;
+    background-size: cover;
+}
+.about_history h1 {
+    font: bold 60px/70px "Roboto Slab";
+    color: #414042;
+    text-align: center;
+    margin: 60px 0 40px 0;
+}
+.history_container {
+    background: url('img/about/img-line@2x.png') center top no-repeat;
+    background-size: 42px;
+    background-position-y: 130px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+.row_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.middle_empty_block {
+    width: 140px;
+}
+.row_block:last-child {
+    margin-bottom: 80px;
+}
+.card_history {
+    padding: 190px 45px 0 45px;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 5px;
+    border: 2px solid #D1D3D4;
+    background-color: #fff;
+    box-shadow: 0 0 12px -2px #666;
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 42px;
+}
+/* bg cards */
+.bg_card_01 {
+    background-image: url('img/about/ic-01_@2x.png.png');
+}
+.bg_card_02 {
+    background-image: url('img/about/ic-02_@2x.png.png');
+}
+.bg_card_03 {
+    background-image: url('img/about/ic-03_@2x.png.png');
+}
+.bg_card_04 {
+    background-image: url('img/about/ic-04_@2x.png.png');
+}
+.bg_card_05 {
+    background-image: url('img/about/ic-05_@2x.png.png');
+}
+.bg_card_06 {
+    background-image: url('img/about/ic-06_@2x.png.png');
+}
+/* end bg cards */
+.card_history p {
+    width: 270px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    font: normal 14px/20px "Open Sans";
+    text-align: center;
+    color: #000;
+}
+.year_history {
+    width: 100%;
+    max-width: 360px;
+}
+.year_history h2 {
+    font: bold 100px/100px "Open Sans";
+    color: #fff;
+    text-align: left;
+}
+.row_block:nth-child(even) .year_history h2 {
+    text-align: right;
+}
+
+.that_had {
+    background: url('img/about/bg-02_@2x.png.png') left top repeat;
+    background-size: 90%;
+}
+.that_had h1 {
+    width: 340px;
+    font: bold 60px/70px "Roboto Slab";
+    color: #fff;
+    text-align: center;
+    margin: 60px auto 40px auto;
+}
+.that_had h2 {
+    font: bold 100px/100px "Open Sans";
+    color: #ffcc00;
+    text-align: center;
+    margin: 0;
+}
+.card_that_had {
+    padding-top: 190px;
+    width: 360px;
+    height: 410px;
+    max-width: 360px;
+    border-radius: 5px;
+    border: 2px solid #D1D3D4;
+    background-color: #fff;
+    box-shadow: 0 0 12px -2px #666;
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 42px;
+    margin: 20px;
+}
+.card_that_had p {
+    display: block;
+    width: 300px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    font: normal 17px/30px "Open Sans";
+    text-align: center;
+    color: #000;
+}
+.bg_card_07 {
+    background-image: url('img/about/ic-07_@2x.png.png');
+}
+.bg_card_08 {
+    background-image: url('img/about/ic-08_@2x.png.png');
+}
+.bg_card_09 {
+    background-image: url('img/about/ic-09_@2x.png.png');
+}
+.bg_card_10 {
+    background-image: url('img/about/ic-10_@2x.png.png');
+}
+.bg_card_11 {
+    background-image: url('img/about/ic-11_@2x.png.png');
+}
+.bg_card_12 {
+    background-image: url('img/about/ic-12_@2x.png.png');
+}
+.bg_card_13 {
+    background-image: url('img/about/ic-13_@2x.png.png');
+}
+.bg_card_14 {
+    background-image: url('img/about/ic-14_@2x.png.png');
+}
+.bg_card_15 {
+    background-image: url('img/about/ic-15_@2x.png.png');
+}
+.bg_card_16 {
+    background-image: url('img/about/ic-16_@2x.png.png');
+}
+.that_had_container {
+
+}
+.that_had_cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.we_team {
+    background: url('img/about/bg-03_@2x.png.png') left top repeat-y;
+    background-size: 100%;
+    padding:0;
+}
+.we_team h1 {
+    font: bold 60px/70px "Roboto Slab";
+    color: #414042;
+    text-align: center;
+    margin: 60px auto 40px auto;
+}
+.we_team_cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card_we_team {
+    position: relative;
+    padding-top: 190px;
+    width: 360px;
+    height: 470px;
+    max-width: 360px;
+    border-radius: 5px;
+    border: 2px solid #D1D3D4;
+    background-color: #fff;
+    box-shadow: 0 0 12px -2px #666;
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 42px;
+    margin: 20px;
+}
+.card_we_team h2 {
+    font: bold 24px/30px "Roboto Slab";
+    color: #000;
+    text-align: center;
+}
+.card_we_team p {
+    display: block;
+    width: 300px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    font: normal 17px/30px "Open Sans";
+    text-align: center;
+    color: #000;
+}
+.country_flag {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:10px;
+    left:10px;
+}
+.photo_card_01 {
+    background-image: url('img/about/img_t-01_@2x.png.png');
+}
+.photo_card_02 {
+    background-image: url('img/about/img_t-02_@2x.png.png');
+}
+.photo_card_03 {
+    background-image: url('img/about/img_t-03_@2x.png.png');
+}
+.photo_card_04 {
+    background-image: url('img/about/img_t-04_@2x.png.png');
+}
+.photo_card_05 {
+    background-image: url('img/about/img_t-05_@2x.png.png');
+}
+.photo_card_06 {
+    background-image: url('img/about/img_t-06_@2x.png.png');
+}
+.go_to_questionary {
+    margin-top: 40px;
+    background: url('img/about/img-bottom_@2x.png.png') center top no-repeat;
+    background-size:cover;
+    padding-bottom: 48px;
+}
+.go_to_questionary p {
+    width: 680px;
+    text-align: center;
+    margin: 0 auto;
+    font: bold 20px/30px "Open Sans";
+    color: #000;
+    padding-top: 24%;
+}
+.question_button {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 190px;
+    height: 50px;
+    background-color: #FF5722;
+    font: bold 18px/50px "Open Sans";
+    color: #fff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 3px 4px 10px -4px #333;
+}
+.question_button:before {
+    background: url('img/about/rabiit-02_xhdpi.png') center center no-repeat;
+    background-size: 33px 38px;
+    width: 33px;
+    height: 50px;
+    display: inline-block;
+    content: '';
+    vertical-align: middle;
+    margin-right: 10px;
+    background-position-y: 3px;
+}

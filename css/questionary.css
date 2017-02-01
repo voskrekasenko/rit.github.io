@@ -1,0 +1,230 @@
+html {
+    font-family: Open Sans;
+}
+.wrapper-questionary {
+    background: url('img/bg_@2x.png');
+    background-size: cover;
+}
+.wrapper-about {
+    width:100%;
+}
+.header_block {
+    position: relative;
+    background: url('img/bg_header.png') no-repeat;
+    max-width: 900px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 9999;
+}
+.header_letter, .header_word, .for_registration {
+    width: 100%;
+    margin: 0;
+}
+.header_letter {
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height:80px;
+    font-size:80px;
+}
+.header_word {
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height:20px;
+    font-size:15px;
+}
+.horizontal_line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 10px auto
+}
+.for_registration {
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height:20px;
+    font-size:15px;
+}
+.parent_block {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 50px 50px 50px;
+    background-color: #fff;
+}
+.parent_block:first-child {
+    margin-top: -10px;
+    padding: 10px 0 50px 0;
+}
+.parent_block:last-child {
+    margin-bottom: 0;
+}
+.teenagers_block {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.teenagers_img {
+    width: 100%;
+}
+.teenagers_text_block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+}
+.bracket_left, bracket_right {
+    width: 25%;
+}
+.bracket_left {
+    width: 154px;
+    height: 94px;
+    background: url("img/decor-left.png") left center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.bracket_right {
+    width: 154px;
+    height: 94px;
+    background: url("img/decor-right.png") right center no-repeat;
+    background-size: contain;
+}
+.teenagers_text {
+    margin: 0 auto;
+    width: 54%;
+}
+.teenagers_text p {
+    margin: 5px 0 0 0;
+    font: bold italic 14px/20px "Open Sans";
+    text-align: center;
+}
+.entering_information {
+    padding-top: 40px;
+}
+.entering_information h5 {
+    margin:0;
+    font: bold 24px/30px "Roboto Slab";
+}
+
+.field {
+    margin-top: 40px;
+    width: 100%;
+}
+.field.md-input-has-value.md-input-focused {
+    border-color: #FFCD00 !important;
+
+}
+md-input-container:not(.md-input-invalid).md-input-focused .md-input {
+    border-color: #FFCD00;
+}
+md-input-container:not(.md-input-invalid).md-input-focused label {
+    color: #FFCD00;
+}
+md-input-container {
+    margin-bottom: 0;
+}
+
+/* gender */
+.radio_box_block {
+
+}
+.radio_box_block h5 {
+    margin: 0;
+    font: bold 24px/30px "Roboto Slab";
+    text-align: center;
+}
+.radio_list {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*padding: 0;*/
+    /*margin-top: 40px;*/
+}
+.radio_field {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.radio_field label {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+.radio_field h6 {
+    margin: 0;
+    font: bold 13px/20px "Open Sans";
+}
+.radio-image {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+.radio_active {
+    width: 100px;
+    height: 100px;
+}
+label > .input_radio {
+    visibility: hidden;
+    position: absolute;
+}
+label > .input_radio + .radio-image {
+    cursor:pointer;
+}
+label > .input_radio:checked + .radio-image {
+    /*color: #F15A24;*/
+    width: 100px;
+    height: 100px;
+}
+.align_center {
+    text-align: center;
+}
+/* fields-with-background */
+.country_field:before {
+    background: url('img/btn-13_@2x.png') center center no-repeat;
+}
+.city_field:before {
+    background: url('img/btn-14_@2x.png') center center no-repeat;
+}
+.email_field:before {
+    background: url('img/btn-15_@2x.png') center center no-repeat;
+}
+.phone_field:before {
+    background: url('img/btn-16_@2x.png') center center no-repeat;
+}
+.facebook_field:before {
+    background: url('img/btn-17_@2x.png') center center no-repeat;
+}
+.skype_field:before {
+    background: url('img/btn-18_@2x.png') center center no-repeat;
+}
+.twitter_field:before {
+    background: url('img/btn-19_@2x.png') center center no-repeat;
+}
+.vk_field:before {
+    background: url('img/btn-20_@2x.png') center center no-repeat;
+}
+.insta_field:before {
+    background: url('img/btn-21_@2x.png') center center no-repeat;
+}
+.field_with_bg {
+    width: 80%;
+    position: relative;
+    margin-left: 60px;
+}
+.field_with_bg:before {
+    background-size: 60px 60px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    content: '';
+    margin: -27px 0 0 -60px;
+}
